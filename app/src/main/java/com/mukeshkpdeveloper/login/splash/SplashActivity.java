@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+
+/**
+ * Created by Mukesh Kumar Patel on 03/08/21.
+ */
+
 public class SplashActivity extends AbstractActivity implements SplashActivityView {
 
     SplashPresenter mPresenter = new SplashPresenter(this);
